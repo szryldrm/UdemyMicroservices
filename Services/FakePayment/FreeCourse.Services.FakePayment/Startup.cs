@@ -36,7 +36,7 @@ namespace FreeCourse.Services.FakePayment
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => {
                     options.Authority = Configuration["IdentityServerURL"];
-                    options.Audience = "resource_fakepayment";
+                    options.Audience = "resource_payment";
                     options.RequireHttpsMetadata = false;
                 });
 
