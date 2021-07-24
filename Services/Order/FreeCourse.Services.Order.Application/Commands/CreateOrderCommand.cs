@@ -1,5 +1,5 @@
 ﻿using FreeCourse.Services.Order.Application.Dtos;
-using FreeCourse.Shared;
+using FreeCourse.Shared.Dtos;
 using MediatR;
 using System;
 using System.Collections.Generic;

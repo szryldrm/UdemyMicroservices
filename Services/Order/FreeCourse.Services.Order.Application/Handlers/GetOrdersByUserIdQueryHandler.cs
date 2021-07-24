@@ -2,7 +2,7 @@
 using FreeCourse.Services.Order.Application.Mapping;
 using FreeCourse.Services.Order.Application.Queries;
 using FreeCourse.Services.Order.Infrastructure;
-using FreeCourse.Shared;
+using FreeCourse.Shared.Dtos;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
