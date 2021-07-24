@@ -1,6 +1,6 @@
 ﻿using FreeCourse.Services.Catalog.Dtos;
 using FreeCourse.Services.Catalog.Model;
-using FreeCourse.Shared;
+using FreeCourse.Shared.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

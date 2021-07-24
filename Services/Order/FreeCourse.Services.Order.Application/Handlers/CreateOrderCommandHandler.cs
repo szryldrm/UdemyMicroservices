@@ -2,7 +2,7 @@
 using FreeCourse.Services.Order.Application.Dtos;
 using FreeCourse.Services.Order.Domain.OrderAggregate;
 using FreeCourse.Services.Order.Infrastructure;
-using FreeCourse.Shared;
+using FreeCourse.Shared.Dtos;
 using MediatR;
 using System;
 using System.Collections.Generic;
