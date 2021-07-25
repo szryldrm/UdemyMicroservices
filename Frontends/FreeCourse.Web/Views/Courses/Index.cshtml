@@ -3,6 +3,14 @@
 }
 @model List<CourseViewModel>
 
+<style>
+    .card-img-top {
+        width: 100%;
+        height: 10vh;
+        object-fit: cover;
+    }
+</style>
+
 <div class="row">
     <div class="col-md-12">
         <div class="card">
@@ -26,7 +34,7 @@
                             @foreach (var item in Model)
                             {
                                 <tr>
-                                    <td></td>
+                                    <td class="text-center"><img src="@item.StockPictureUrl" class="img-thumbnail card-img-top" style="width:72px;" /></td>
                                     <td>@item.Name</td>
                                     <td>@item.Price</td>
                                     <td>@item.Feature.Duration</td>
